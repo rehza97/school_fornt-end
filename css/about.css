@@ -1,0 +1,8 @@
+.about_achevements{
+    margin-top: 3rem;
+}
+.about_achevement_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
