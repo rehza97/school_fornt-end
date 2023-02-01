@@ -33,6 +33,25 @@ faqs.forEach(faq =>{
         }
     })
 })
+//  ftables
+const tables = document.querySelectorAll('.table');
+
+tables.forEach(table =>{
+    table.addEventListener("click", ()=>{
+        table.classList.toggle('open');
+        table.style.transition =`${400}ms`
+        console.log(table)
+
+        //CHANGE ICON
+        const icon = table.querySelector('.table_icon i');
+        if(icon.className === 'uil uil-plus'){
+            icon.className = 'uil uil-minus'
+        }else{
+            icon.className = 'uil uil-plus'
+
+        }
+    })
+})
 
 
 // menu for 1024px se=creens

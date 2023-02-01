@@ -1,0 +1,70 @@
+.tables {
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+  }
+  .tables_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .table {
+    padding: 2rem;
+    /* display: flex; */
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background: var(--color-primary);
+    
+  } 
+  .table h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+    cursor: pointer;
+  }
+  .table_icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+  }
+  .table table {
+    margin-top: 0.8rem;
+    display: none;
+    transition: var(--transition);
+  } 
+  .table.open table {
+    display: inline-table;
+    transition: var(--transition);
+  }
+
+  /* ********************************************** */
+  .table thead{
+    background-color: var(--color-bg1) ;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse ;
+  }
+table thead tr th{
+    font-size: 1rem;
+    font-weight: medium;
+    letter-spacing: 0.25rem;
+    opacity: 1;
+    padding: 1rem;
+    vertical-align: top;
+    border: 1px solid var(--color-bg2);
+}
+table tbody tr td{
+    font-size: 1rem;
+    /* letter-spacing: 0.10rem; */
+    font-weight: normal;
+    background-color: var(--color-bg2) ;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid var(--color-bg1);
+}
+table .btn{
+    padding: 0.4rem 0.8rem ;
+}
+@media (max-width:768px) {
+    table
+}
