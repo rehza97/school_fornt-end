@@ -7,7 +7,12 @@
     grid-template-columns: 40% 60%;
     gap: 5rem;
 }
-.about_achevements-right > p {
+.about_achevement_left img {
+    width: 100%;
+    height: 100%;
+
+}
+.about_achevement_right > p {
     margin: 1.6rem 0 2.5rem;
 }
 .achievements_cards{

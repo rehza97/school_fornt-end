@@ -19,6 +19,10 @@
     width: 12rem;
     margin-bottom: 2rem;
 }
+.aside_image img{
+    width: 100%;
+    height: 100%;
+}
 .contact_aside h2{
     text-align: left;
     margin-bottom: 1rem;

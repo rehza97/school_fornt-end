@@ -47,32 +47,69 @@
           <li><a href="courses.html">courses</a></li>
           <li><a href="about.html">about</a></li>
           <li><a href="contact.html">contact</a></li>
-          <li><a href="help.html">help</a></li>
+          <!-- <li><a href="help.html">help</a></li> -->
         </ul>
         <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
         <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
       </div>
     </nav>
     <!-- the end of nav bar -->
-<section class="container">
-  <div class="header" ><h1>lorem</h1></div>
-  
-  <form action="">
-    <div class="textbox form_name">
-      <div class="mrg">
-        <input type="text" name="name" placeholder="nom" spellcheck="false">
-        <div class="validation">*First name is required</div>
+    <section class="contact">
+      <div class="container contact_container">
+
+        <form action="https://formspree.io/f/mqkoeraw" method="POST">
+          <div class="form_name">
+            <input
+              type="text"
+              name="First name"
+              placeholder="first name"
+              required
+            />
+            <input
+              type="text"
+              name="last name"
+              placeholder="last name"
+              required
+            />
+          </div>
+          <input
+            type="tel"
+            name="phone_nbr"
+            placeholder="votre numero de telephone"
+            required
+          />
+          <input
+          type="email"
+          name="Email address"
+          placeholder="your email address"
+          required
+        />
+          <input
+            type=""
+            name="ville"
+            placeholder="votre wiliya"
+            required
+          />
+          <input
+            type=""
+            name="sex"
+            placeholder="sex"
+            required
+          />
+          <input
+            type=""
+            name="ville"
+            placeholder="ur lvl"
+            required
+          />
+
+          <div class="form_btn">
+            <button type="submit" class="btn btn-primary">reg</button>
+            <button type="" class="btn btn-primary">print</button>
+          </div>
+        </form>
       </div>
-      <div class="mrg">
-        <input type="text" name="name" placeholder="nom" spellcheck="false">
-        <div class="validation" >*First name is required</div>
-      </div>
-      
-    </div>
-    <!-- <button type="submit" class="btn btn-primary" >submit</button> -->
-    <input type="submit" value="click">
-  </form>
-</section>
+    </section>
     <!-- footer -->
     <footer class="footer">
       <div class="container footer_container">
