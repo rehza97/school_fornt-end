@@ -30,8 +30,35 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
 
+    <!-- logo icon -->
+    <link rel="icon" href="./images/logo-removebg-preview.png" type="image/icon type">
     <!-- title -->
     <title>Leader Consulting Formation</title>
+
+    <style>
+      .header_right-image .swiper {
+        width: 440px;
+        height: 420px;
+      }
+
+      .header_right-image .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+      }
+      .header_right-image .swiper-slide img{
+      
+          width:100%;
+          height:100%;
+      
+      }
+
+      
+    </style>
   </head>
 
   <body>
@@ -46,7 +73,7 @@
           <li><a href="courses.html">courses</a></li>
           <li><a href="about.html">about</a></li>
           <li><a href="contact.html">contact</a></li>
-          <li><a href="help.html">help</a></li>
+          <li class="btn btn-primary" ><a href="form.html">inscre vous</a></li>
         </ul>
         <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
         <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -68,7 +95,20 @@
         </div>
         <div class="header_right">
           <div class="header_right-image">
-            <img src="./images/header.svg" alt="" />
+            <div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/7.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/8.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/9.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/10.jpg" alt=""></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -138,117 +178,86 @@
     <!--end of section one categories -->
     <!--start section two courses -->
     <section class="courses mySwiper">
+      <h2>Notre Formation</h2>
       <div class="container courses_container swiper-wrapper">
         <!-- cardes -->
         <article class="course swiper-slide">
           <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
+            <img src="./images/management.JPG" alt="" />
           </div>
           <div class="course_info">
             <h4>management</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
         <article class="course swiper-slide">
           <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
+            <img src="./images/communication.jpg" alt="" />
           </div>
           <div class="course_info">
-            <h4>communiation</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <h4>communication</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
         <article class="course swiper-slide">
           <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
+            <img src="./images/marketing & commercial.png" alt="" />
           </div>
           <div class="course_info">
             <h4>marketing & commercial</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
         <article class="course swiper-slide">
           <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
+            <img src="./images/achats.jpg" alt="" />
           </div>
           <div class="course_info">
             <h4>achats</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
         <article class="course swiper-slide">
           <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
+            <img src="./images/ressources humains.jpg" alt="" />
           </div>
           <div class="course_info">
             <h4>ressources humains</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
         <article class="course swiper-slide">
           <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
+            <img src="./images/finance, fiscalité et comptabilité.jpg" alt="" />
           </div>
           <div class="course_info">
             <h4>finance, fiscalité et comptabilité</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
         <article class="course swiper-slide">
           <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
+            <img src="./images/droit de travail et des affaires.jpg" alt="" />
           </div>
           <div class="course_info">
-            <h4>driot de travail et des affaires</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <h4>droit de travail et des affaires</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
         <article class="course swiper-slide">
           <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
+            <img src="./images/sante et sécurite au travail.jpg" alt="" />
           </div>
           <div class="course_info">
-            <h4>sante et sécurite au travail</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <h4>Santé et Sécurité au Travail</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
@@ -258,25 +267,7 @@
           </div>
           <div class="course_info">
             <h4>systeme d'information</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
-            <a href="courses.html" class="btn btn-primary">learn more</a>
-          </div>
-        </article>
-        <article class="course swiper-slide">
-          <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
-          </div>
-          <div class="course_info">
-            <h4>reponsive social media website iu Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              autem ducimus iste veniam deleniti at eveniet dignissimos.
-              Corrupti unde optio id ratione odio necessitatibus, blanditiis
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="courses.html" class="btn btn-primary">learn more</a>
           </div>
         </article>
@@ -493,6 +484,15 @@
             slidesPerView: 3,
             centeredSlides: true,
           },
+        },
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        effect: "cards",
+        grabCursor: true,
+        loop: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: true,
         },
       });
     </script>
