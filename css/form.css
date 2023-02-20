@@ -46,7 +46,7 @@
 .textbox input:valid ~  .validation{
     transform: scaleY(0);
 } */
-.container{
+.contact_container{
     width: 50%;
 }
 
