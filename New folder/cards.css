@@ -1,0 +1,64 @@
+.container{
+    max-width: 110rem;
+    max-height: 50rem;
+    padding: 1.5rem;
+}
+.cards{
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit,minmax(1rem , 9fr)); */
+    grid-gap: 1.5rem;
+    flex-direction: row;
+  
+
+}
+.card{
+    background: #262525;
+    color: #fff;
+    padding: 1.5rem;
+    overflow: hidden;
+    border-radius: 0.8rem;
+    margin: 20px ;
+}
+.card-title-large{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    color: #1d1d1d;
+    transform: translateX(7rem);
+    transition: transform 2.5s;
+}
+.card-title-small{
+    margin-bottom: 1rem;
+}
+.card-description{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.card-cta{
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+}
+.card:hover .card-cta{
+    background-color: #262525;
+}
+.card:hover .card-title-large{
+    transform: translateX(-115%);
+    color: #fff;
+}
+.card.twitter:hover{
+    background-color: #1da1f2;
+}
+.card.instagram:hover{
+    background-color: #64c288;
+}
+.card.facebook:hover{
+    background-color: #4267b2;
+}
+.card.youtube:hover{
+    background-color: #ff074f;
+}

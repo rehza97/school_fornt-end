@@ -21,19 +21,21 @@
     gap: 1.5rem;
 }
 .achievement_card{
-    background: var(--color-bg1);
+    background: #f50a3b;
     padding: 1.6rem;
     border-radius: 1rem;
     text-align: center;
+    color: rgb(230 230 230);
+
     transition: var(--transition);
 }
 .achievement_card:hover{
-    background: var(--color-bg2);
+    background: #d10926;
     box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
 }
 .achievement_icon{
     background: var(--color-danger);
-    padding: 1rem;
+    padding: .5rem 1rem;
     border-radius: 1rem;
     display: inline-block;
     margin-bottom: 2rem;

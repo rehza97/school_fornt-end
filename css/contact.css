@@ -1,5 +1,5 @@
 .contact_container{
-    background: var(--color-bg1);
+    background: #f50a3b;
     padding: 4rem;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -7,9 +7,11 @@
     height: 30rem;
     margin: 7rem auto;
     border-radius: 1rem ;
+    color: rgb(230 230 230);
+
 }
 .contact_aside{
-    background: var(--color-primary);
+    background: #d10926;
     padding: 3rem;
     border-radius: 1rem;
     position: relative;
@@ -43,7 +45,7 @@
     margin-top: 3rem;
 }
 .contact_socials a {
-    background: var(--color-bg2);
+    background: rgb(230 230 230);
     padding: 0.5rem;
     border-radius: 50%;
     font-size: 1.3rem;
@@ -69,8 +71,8 @@ form input[type="text"]{
 form input ,textarea{
     width: 100%;
     padding: 1rem;
-    background-color: var(--color-bg) ;
-    color: var(--color-white);
+    background-color: rgb(202, 202, 202) ;
+    color: rgb(22 28 42);
     border-radius: 1rem;
 }
 @media screen and (max-width : 1024px){
