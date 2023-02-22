@@ -108,8 +108,25 @@ nav {
 }
 nav a {
   color :rgb(44 66 86);
+  text-transform: capitalize;
 }
-
+.link{
+  position: relative;
+  display: inline-block;
+}
+.link::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  border: 4px;
+  scale: 0 1;
+  transform-origin: left;
+  transition: scale 0.25s;
+}
 /* change navbar style on scoll using js */
 .window-scroll-Down {
   transition: var(--transition);
@@ -164,11 +181,24 @@ header {
   gap: 5rem;
   height: 100%;
 }
+.header_left{
+  text-transform: capitalize;
+}
 .header_left p {
   margin: 1rem 0 2.4rem;
 }
+.header_left .typing{
+  color: #f50a3b;
+  font-size: 2rem ;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+header .btn:hover{
+  color: #f50a3b;
+  border: #f50a3b 1px solid ;
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.4);
 
-
+}
 
 /************************************ end of header ************************************/
 /************************************  categories ************************************/
@@ -205,104 +235,7 @@ header {
 .category:hover {
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.4);
 }
-/***************************************/
-.category:nth-child(2) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(2):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(2):hover {
-  background: var(--color-danger);
-}
-/* ************************************ */
-/***************************************/
-.category:nth-child(3) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(3):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(3):hover {
-  background: var(--color-danger);
-}
-/* ************************************ */
-/***************************************/
-.category:nth-child(4) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(4):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(4):hover {
-  background: var(--color-danger);
-}
-/* ************************************ */
-/***************************************/
-.category:nth-child(5) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(5):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(5):hover {
-  background: var(--color-danger);
-}
-/* ************************************ */
-/***************************************/
-.category:nth-child(6) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(6):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(6):hover {
-  background: var(--color-danger);
-}
-/* ************************************ */
-/***************************************/
-.category:nth-child(7) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(7):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(7):hover {
-  background: var(--color-danger);
-}
-/* ************************************ */
-/***************************************/
-.category:nth-child(8) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(8):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(8):hover {
-  background: var(--color-danger);
-}
-/* ************************************ */
-/***************************************/
-.category:nth-child(9) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(9):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(9):hover {
-  background: var(--color-danger);
-}
-/* ************************************ */
-/***************************************/
-.category:nth-child(10) .category_icon {
-  background: var(--color-danger);
-}
-.category:nth-child(10):hover .category_icon {
-  background: var(--color-primary);
-}
-.category:nth-child(10):hover {
-  background: var(--color-danger);
-}
+
 /* ************************************ */
 .category_icon {
   background-color: var(--color-primary);
